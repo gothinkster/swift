@@ -98,14 +98,14 @@ We can take all of our knowledge of the various data types in Swift and give the
 Ok now things get exciting. We are going to cover optionals, loops, functions, and closures. These concepts allow us to allow our code to do things only under certain conditions. Armed with this knowledge and what you’ve learned so far, you will be able to write code more consisely and you'll even be able to write the logic for basic games.
 
 ### Loops and Conditionals
-Control flow constructs in Swift allow us to iterate over collections, loop through a chunk of code multiple times, and execute code based on conditional statements.  The MadApper series does a good job of covering these concepts
+Control flow constructs in Swift allow us to iterate over collections, loop through a chunk of code multiple times, and execute code based on conditional statements. The MadApper series does a good job of covering these concepts
 
 * [x]: [For (condition, increment) Loops][for]
 * [x]: [For In Loops][for_in]
-* [x]: [While Loops][while]: http://www.youtube.com/watch?v=Pc-SO4F2tjY
-* [x]: [Do While Loops][do_while]:http://www.youtube.com/watch?v=eDNB0AoLaMo
-* [x]: [If][if]:http://www.youtube.com/watch?v=ZeksjlD-eCo 
-* [x]: [Switch][switch]:http://www.youtube.com/watch?v=R1sn8nhUNFc
+* [x]: [While Loops][while]
+* [x]: [Do While Loops][do_while]
+* [x]: [If][if]
+* [x]: [Switch][switch]
 
 ### Optionals
 
@@ -114,7 +114,7 @@ Optional are a concept that is introduced in Swift and has no parallel in C or O
 * [x]: [Optionals][chapter_basics]
 
 #### Readings
-* [x]: Read [the section called “Optionals”]  in “The Basics Chapter” of the Swift ebook.
+* [x]: Read [the section called “Optionals”] in “The Basics Chapter” of the Swift ebook.
 * [x]: Read ["How Swift “Defines Away” Common Programming Errors…sort of"][swift_defines_away] by Matt Bridges
 * [x]: Read ["Optional Case Study: Value for Keys"][optionals_case] from the Swift Blog
 
