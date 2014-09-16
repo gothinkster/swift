@@ -29,8 +29,8 @@ Tools, tricks, and tips for both novice and senior Swift developers.
 
 
 #### Readings
-* [Master List of Swift Cheat Sheets][cheat_sheet] showcases a few cheat sheets for Swift.
-* [Swift Syntax Guidelines][syntax_guide] is a best practices post in that is periodically updated as the language matures and best practices emerge.
+* [x]: [Master List of Swift Cheat Sheets][cheat_sheet] showcases a few cheat sheets for Swift.
+* [x]: [Swift Syntax Guidelines][syntax_guide] is a best practices post in that is periodically updated as the language matures and best practices emerge.
 
 
 

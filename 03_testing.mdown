@@ -26,14 +26,13 @@ Testing is important to driving the design of our applications, ensuring they be
 * [x]: [XCTest][async_unit_testing]
 * [x]: [Asynchronous Unit Testing][async_unit_testing]
 * [x]: [Bad testing Practices][bad_testing]
-* [x}: [BDD Style Testing with Slepnir][bdd_testing]
+* [x]: [BDD Style Testing with Slepnir][bdd_testing]
 
 ### Meet the Gang
 
 There is an array of libraries to use for testing. Whether your flavor is BDD or just plain old TDD there is something for everyone!
 
-
-* [Sleipinr][sleiphinr_repo]is a BDD style testing framework for Swift.
+* [Sleipinr][sleiphinr_repo] is a BDD style testing framework for Swift.
 * [Quick][quick_repo] is another BDD style testing framework for Swift.
 * [Nimble][nilble_repo] is a compliment to Quick. It’s a Matchers framework.
 

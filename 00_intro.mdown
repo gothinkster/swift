@@ -1,5 +1,5 @@
-[apple_dev]:[https://developer.apple.com/register/index.action]
-[playgrounds]:[https://developer.apple.com/library/prerelease/ios/recipes/xcode_help-source_editor/chapters/ExploringandEvaluatingSwiftCodeinaPlayground.html] 
+[apple_dev]:https://developer.apple.com/register/index.action
+[playgrounds]:https://developer.apple.com/library/prerelease/ios/recipes/xcode_help-source_editor/chapters/ExploringandEvaluatingSwiftCodeinaPlayground.html
 
 ## Introduction
 
@@ -16,21 +16,21 @@ Swift is in its infancy. This tutorial is going to evolve and change as we learn
 ### Prerequisites
 
 To work through this tutorial you’ll need a fully functioning Apple developer setup. This includes 
-* 	A mac running OSX Mavericks or Yosemite. 
-*	An [apple developer account] https://developer.apple.com/register/index.action
-*	A copy of Xcode 6 
+* [x]: A mac running OSX Mavericks or Yosemite. 
+* [x]: An [apple_dev]
+* [x]: A copy of Xcode 6 
 
 ### Resources
 We expect a plethora of learning resources to come out for Swift now that the language is out of beta. Luckily, many resources are already available and this heavily leverages the following (and they are all free!):
 
-*	The Swift Programming Language Ebook from Apple (also available on iBooks)
-*	The MadApper Swift Video Series 
-* 	The Skip Wilson Swift Video Series 
+* The Swift Programming Language Ebook from Apple (also available on iBooks)
+* The MadApper Swift Video Series 
+* The Skip Wilson Swift Video Series 
 
 ### One Last Thing
-This entire tutorial can be done in a playground: an interactive environment that exists in xcode that allows you to code and receive immediate results from your code without having to compile an app.  Before actually learning about Swift, learn how to create and navigate around playgrounds.
+This entire tutorial can be done in a playground: an interactive environment that exists in xcode that allows you to code and receive immediate results from your code without having to compile an app. Before actually learning about Swift, learn how to create and navigate around playgrounds.
 
-*  [x]:Read [Exploring and Evaluating Swift Code in a Playground][playgrounds]
+* [x]: Read [Exploring and Evaluating Swift Code in a Playground][playgrounds]
 
 
 
