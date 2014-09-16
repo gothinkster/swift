@@ -1,0 +1,140 @@
+
+[chapter_tour]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-XID_1
+[chapter_basics]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html
+[chapter_extensions]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html#//apple_ref/doc/uid/TP40014097-CH24-XID_229
+[solutions]: http://blog.swiftcast.tv/the-swift-programming-language-solutions-to-experiments/
+[swift_js]: http://realm.io/news/swift-for-javascript-developers/
+[operators]: http://nshipster.com/swift-operators/
+[reserved_words]:http://blog.swiftcast.tv/articles/reserved-words-escaping
+[values_vs_reference]:https://developer.apple.com/swift/blog/?id=10
+[compoud_vs_named]:https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html
+[chapter_basics]: https://developer.apple.com/swift/blog/?id=12
+[optionals_case]: https://developer.apple.com/swift/blog/?id=12
+[swift_defines_away]: https://medium.com/@rrridges/swift-optionals-a10dcfd8aab5
+[chapter_functions]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html
+[chapter_closures]:https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html 
+[basic_functions_closures]:http://airspeedvelocity.net/2014/06/11/a-basic-tutorial-on-functions-and-closures-in-swift/
+[function_cheatsheet]:http://adoptioncurve.net/archives/2014/08/the-many-forms-of-swift-functions-a-cheatsheet/
+[closure_choke]: http://www.informit.com/articles/article.aspx?p=2234250
+
+[booleans]:http://www.youtube.com/watch?v=yulIqkOjGUA
+[numbers]: http://www.youtube.com/watch?v=lZRbX7cgyk4
+[variables_constants]: http://www.youtube.com/watch?v=2lJmNaVcRVk
+[strings]: http://www.youtube.com/watch?v=6X34DbfT_fY
+[strings_man]:http://www.youtube.com/watch?v=9JiYwlYqT48
+[floats_doubles]:http://www.youtube.com/watch?v=vql7qLixME4
+[arrays]:http://www.youtube.com/watch?v=nftMzZLy_oM
+[arrays_man]:http://www.youtube.com/watch?v=ymDtPmP6Osg
+[dict]: http://www.youtube.com/watch?v=3uuZVXZ0kdM
+[dict_man]:http://www.youtube.com/watch?v=M9sbLa2AsCM
+[extensions]: http://www.youtube.com/watch?v=rvKyeOqMldA
+[for]: http://www.youtube.com/watch?v=SHtzIdnG-PY
+[for_in]:http://www.youtube.com/watch?v=nPvNJANVM7o
+[while]: http://www.youtube.com/watch?v=Pc-SO4F2tjY
+[do_while]:http://www.youtube.com/watch?v=eDNB0AoLaMo
+[if]:http://www.youtube.com/watch?v=ZeksjlD-eCo 
+[switch]:http://www.youtube.com/watch?v=R1sn8nhUNFc
+[optionals]:http://www.youtube.com/watch?v=6yJwBU1TYoQ
+[closures]:http://www.youtube.com/watch?v=3Ob6YG5FRHE
+[functions]:http://www.youtube.com/watch?v=ioR12RPBY0k
+
+
+##Swift Basics
+
+Now you are going to dive into the language itself. The goal of this section is to get a handle on the syntax, operators, and data types in Swift. 
+
+### Swift Syntax
+
+When learning a new language syntax, it is recommended that you immediately start writing in the language as much as possible. Apple’s “A Swift Tour” chapter of The Swift Programming Guide provides a an overview of Swift Syntax as well as a set of “experiments”, short exercises that let you write some Swift code focusing on a different aspect of the Swift Syntax. 
+
+* [x]: [Variables and Contants][variables_constants]
+
+#### Readings
+
+Along with the experiments in the Swift ebook, we are including two blog posts about reserved words and operators that can serve as reference materials. 
+
+* [x]: Read the [A Swift Tour][chapter_tour] chapter in the Swift ebook and work through the experiments. 
+* [x]: [Check your solutions to experiments][solutions] and make any corrections. 
+* [x]: Read [about Swift operators][operators]
+* [x]: Read [about Swift Reserved Words][reserved_words]. Don't worry about memorizing these, just be aware.  
+* [x]: Optional: [Swift for Javscript Developers][swift_js] - We know many of you are coming from Javascript. Once you look a the Swift syntax you’re going to see some similarities, so it is worth it to view the video and blog post by JP Simard on Swift for Javascript developers. JP goes over the key differences between the two languages as well as some similarities.  
+
+### Swift Types
+
+If you’ve made it this far you’ve read that one of the good parts about Swift is that it is a type-safe language. Even without having any idea what that means, you can probably assume the section in this tutorial about types is important. For learning about types, the MadApper video series and Apple’s documentation pair nicely. Types in Swift can be confusing because there are four categories of types: named types, compound types, value types, and reference types.  Each type in Swift is a compound type or a named type as well as either a reference type or a value type.  Confused yet? No worries, we’ll sort all of this out. 
+
+#### Pre-Readings
+
+For Types, do the readings first before watching the videos on the specific types.   
+
+* [x]: [Value Types vs. Reference Types][values_vs_reference]
+* [x]: [Compound Types vs. Named Types][compound_vs_named]
+
+#### Videos
+
+* [x]: [Booleans][booleans]
+* [x]: [Numbers][numbers]
+* [x]: [Strings][strings]
+* [x]: [String Manipulation][strings_man]
+* [x]: [Floats and Doubles][floats_doubles]
+* [x]: [Arrays][arrays]
+* [x]: [Array Manipulation][arrays_man]
+* [x]: [Dictionaries][dict]
+* [x]: [Dictionary Manipulation][dict_man]
+
+
+### Extensions
+We can take all of our knowledge of the various data types in Swift and give them new functionality. Extensions allow us to give types new methods to suit the needs of our applications. For this, watch a long and awesome video on creating an extension and don’t forget only named types can be extended.
+
+* [x]: [Extensions][extensions]
+
+### Readings
+
+* [x]: Read the [Extensions][chapter_extensions] chapter in the Swift book. 
+
+
+## Control Flow 
+
+Ok now things get exciting. We are going to cover optionals, loops, functions, and closures. These concepts allow us to allow our code to do things only under certain conditions. Armed with this knowledge and what you’ve learned so far, you will be able to write code more consisely and you'll even be able to write the logic for basic games.
+
+### Loops and Conditionals
+Control flow constructs in Swift allow us to iterate over collections, loop through a chunk of code multiple times, and execute code based on conditional statements.  The MadApper series does a good job of covering these concepts
+
+* [x]: [For (condition, increment) Loops][for]
+* [x]: [For In Loops][for_in]
+* [x]: [While Loops][while]: http://www.youtube.com/watch?v=Pc-SO4F2tjY
+* [x]: [Do While Loops][do_while]:http://www.youtube.com/watch?v=eDNB0AoLaMo
+* [x]: [If][if]:http://www.youtube.com/watch?v=ZeksjlD-eCo 
+* [x]: [Switch][switch]:http://www.youtube.com/watch?v=R1sn8nhUNFc
+
+### Optionals
+
+Optional are a concept that is introduced in Swift and has no parallel in C or Objective-C. Using them effectively can prevent some common programming errors and increase the type safety of your code. 
+
+* [x]: [Optionals][chapter_basics]
+
+#### Readings
+* [x]: Read [the section called “Optionals”]  in “The Basics Chapter” of the Swift ebook.
+* [x]: Read ["How Swift “Defines Away” Common Programming Errors…sort of"][swift_defines_away] by Matt Bridges
+* [x]: Read ["Optional Case Study: Value for Keys"][optionals_case] from the Swift Blog
+
+### Functions and Closures
+
+Functions and Closures are self-contained blocks of code functionality. That is a vague explanation becuase functions and closures have very broad uses and can take many forms. For this section, jump in with two long (and excellent) video tutorials from Skip Wilson to get a practical crash course. 
+
+* [x]: [Functions][functions]
+* [x]: [Closures][closures]
+
+Functions and closures can take many forms in Swift. The difference between the a function and a closure can also be hard to grasp.  The videos cover the basics, but these readings will give you a more complete understanding. 
+
+* [x]: Read [the Functions chapter][chapter_functions] in the Swift ebook.
+* [x]: Read [the Optionals chapter][chapter_closures] in the Swift ebook.
+* [x]: Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions. 
+* [x]: For reference, read [The Many Forms of Swift Functions][function_cheatsheet] to see all of the various form functions can take in Swift.  
+* [x]: Finally [Enough About Swift Closures to Choke a Horse][closure_choke] shows the flexibility of Swift in writing closures. 
+
+
+
+
+
+

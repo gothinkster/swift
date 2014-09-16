@@ -1,0 +1,37 @@
+[sprite_intro]:http://www.swiftcast.tv/articles/introduction-to-sprite-kit
+[sprite_animation]:http://www.swiftcast.tv/articles/using-sprite-kit-to-animate-a-scene
+[sprite_physics]:http://www.swiftcast.tv/articles/getting-started-with-sprite-kit-physics
+[sprite_particles]:http://flexmonkey.blogspot.com/2014/07/using-swift-and-sprite-kit-for-physics.html
+
+[cheat_sheet]:http://www.swiftcast.tv/articles/cheat-sheets-for-swift
+[syntax_guide]:http://www.swiftcast.tv/articles/pro-tips-for-swift-syntax
+
+
+## SDK's
+When it comes to actually building apps in Swift, it is paramount to get an understanding of the various SDKs  provided by Apple to get a sense for all of deep functionality that Apple provides for developers and to prevent yourself from trying to write code for functionality that already exists in an SDK or library. In fact, we recommend always looking for a trusted library before embarking on writing your own functionality (except, of course, if you're writing it yourself to better learn Swift).
+
+### Sprite Kit
+
+Sprite Kit gives developers the ability to create simple or advanced 2D games by providing animation and physics functionality.
+
+#### Readings
+* [x]: [Introduction to Sprite Kit][sprite_intro]
+* [x]: [Sprite Kit Animation][sprite_animation]
+* [x]: [Sprite Kit Physics][sprite_physics]
+* [x]: [Sprite Kit Particles][sprite_particles]
+
+
+
+
+//Tips and Tricks
+## Cheat Sheets
+
+Tools, tricks, and tips for both novice and senior Swift developers.
+
+
+#### Readings
+* [Master List of Swift Cheat Sheets][cheat_sheet] showcases a few cheat sheets for Swift.
+* [Swift Syntax Guidelines][syntax_guide] is a best practices post in that is periodically updated as the language matures and best practices emerge.
+
+
+

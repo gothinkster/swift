@@ -1,0 +1,34 @@
+
+[structs]:https://www.youtube.com/watch?v=8NSXdqwxRbE&index=3&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[enums]:https://www.youtube.com/watch?v=5nwgfpNkMJw&index=7&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[classes]:https://www.youtube.com/watch?v=2HwnLD0Xxro&index=4&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[protocols]:https://www.youtube.com/watch?v=KzypIO_QoMw&index=9&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[chapter_properties]:https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Properties.html
+[chapter_methods]:https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Methods.html
+[chapter_inheritance]:https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Inheritance.html#//apple_ref/doc/uid/TP40014097
+[chapter_initializers]:https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-XID_306
+[when_to_use_enums]:http://www.swift-studies.com/blog/2014/7/1/struct-enum-or-class
+[oop_functional]:http://www.swiftcast.tv/articles/5412074d3833320002000000
+
+## Object Oriented Programming
+Objective-C is an object-oriented programming language. Swift preserves many of the object-oriented ideas and constructs from Objective-C and you’ll need to be comfortable with these concepts to write apps in Swift. 
+
+* [x]:[Structs][structs]
+* [x]:[Enums][enums]
+* [x]:[Classes][classes]
+* [x]:[Protocols][protocols]
+
+### Readings 
+Methods, Properties, and Initializers were covered in the videos, but the Swift ebook is a good place to get a detailed explanation of each of those ideas. 
+
+* [x]: [Properties][chapter_properties]
+* [x]: [Methods][chapter_methods]
+* [x]: [Inheritance][chapter_inheritience]
+* [x]: [Initializers][chapter_initializers]
+
+Now for a few practical readings on Swift objects
+
+* [x]: [When to use Enums, Structs, and Classes][when_to_use_enums]
+* [x]: [OOP and Functional][oop_functional]
+
+
