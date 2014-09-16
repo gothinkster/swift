@@ -8,7 +8,8 @@
 
 
 ## SDK's
-When it comes to actually building apps in Swift, it is paramount to get an understanding of the various SDKs  provided by Apple to get a sense for all of deep functionality that Apple provides for developers and to prevent yourself from trying to write code for functionality that already exists in an SDK or library. In fact, we recommend always looking for a trusted library before embarking on writing your own functionality (except, of course, if you're writing it yourself to better learn Swift).
+
+When it comes to actually building apps in Swift, it is paramount to get an understanding of the various SDKs provided by Apple to get a sense for all of deep functionality that Apple provides for developers and to prevent yourself from trying to write code for functionality that already exists in an SDK or library. In fact, we recommend always looking for a trusted library before embarking on writing your own functionality (except, of course, if you're writing it yourself to better learn Swift).
 
 ### Sprite Kit
 
@@ -22,8 +23,6 @@ Sprite Kit gives developers the ability to create simple or advanced 2D games by
 
 
 
-
-//Tips and Tricks
 ## Cheat Sheets
 
 Tools, tricks, and tips for both novice and senior Swift developers.
