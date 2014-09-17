@@ -9,7 +9,7 @@
 [operators]: http://nshipster.com/swift-operators/
 [reserved_words]: http://blog.swiftcast.tv/articles/reserved-words-escaping
 [values_vs_reference]: https://developer.apple.com/swift/blog/?id=10
-[compoud_vs_named]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html
+[compound_vs_named]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html
 [chapter_basics]: https://developer.apple.com/swift/blog/?id=12
 [optionals_case]: https://developer.apple.com/swift/blog/?id=12
 [swift_defines_away]: https://medium.com/@rrridges/swift-optionals-a10dcfd8aab5
