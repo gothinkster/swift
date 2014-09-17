@@ -96,7 +96,7 @@ To work through this tutorial you'll need a fully functioning Apple developer se
 ### Resources
 We expect a plethora of learning resources to come out for Swift now that the language is out of beta. Luckily, many resources are already available and this heavily leverages the following (and they are all free!):
 
-* The Swift Programming Language Ebook from Apple (also available on iBooks)
+* The Swift Programming Language ebook from Apple (also available on iBooks)
 * The MadApper Swift Video Series
 * The Skip Wilson Swift Video Series
 
