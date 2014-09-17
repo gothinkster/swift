@@ -9,7 +9,7 @@
 [chapter_basics]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html
 [optionals_basics]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-XID_485
 [chapter_extensions]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html#//apple_ref/doc/uid/TP40014097-CH24-XID_229
-[solutions]: http://blog.swiftcast.tv/the-swift-programming-language-solutions-to-experiments/
+[solutions]: http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments
 [swift_js]: http://realm.io/news/swift-for-javascript-developers/
 [operators]: http://nshipster.com/swift-operators/
 [reserved_words]: http://blog.swiftcast.tv/articles/reserved-words-escaping
@@ -53,7 +53,7 @@
 [chapter_inheritance]: https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Inheritance.html#//apple_ref/doc/uid/TP40014097
 [chapter_initializers]: https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-XID_306
 [when_to_use_enums]: http://www.swift-studies.com/blog/2014/7/1/struct-enum-or-class
-[oop_functional]: http://www.swiftcast.tv/articles/5412074d3833320002000000
+[oop_functional]: http://www.swiftcast.tv/articles/oop-functional-swift
 
 [adam_quick]: http://vimeo.com/102163542
 [WWDC_testing]: https://developer.apple.com/videos/wwdc/2014/
