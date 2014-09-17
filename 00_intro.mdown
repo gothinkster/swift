@@ -16,8 +16,8 @@ Swift is in its infancy. This tutorial is going to evolve and change as we learn
 ### Prerequisites
 
 To work through this tutorial you’ll need a fully functioning Apple developer setup. This includes 
-* [x]: A mac running OSX Mavericks or Yosemite. 
-* [x]: An [apple_dev]
+* [x]: A mac running OSX Mavericks or Yosemite 
+* [x]: An [Apple developer account][apple_dev]
 * [x]: A copy of Xcode 6 
 
 ### Resources
