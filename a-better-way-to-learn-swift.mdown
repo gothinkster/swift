@@ -218,7 +218,7 @@ Methods, Properties, and Initializers were covered in the videos, but the Swift 
 
 * [x]: [Properties][chapter_properties]
 * [x]: [Methods][chapter_methods]
-* [x]: [Inheritance][chapter_inheritience]
+* [x]: [Inheritance][chapter_inheritance]
 * [x]: [Initializers][chapter_initializers]
 
 Now for a few practical readings on Swift objects
