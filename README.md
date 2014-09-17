@@ -1,4 +1,4 @@
 swift
 =====
 
-A better to learn swift.
+A better way to learn swift.
