@@ -162,7 +162,7 @@ We can take all of our knowledge of the various data types in Swift and give the
 
 ## Control Flow
 
-Ok now things get exciting. We are going to cover optionals, loops, functions, and closures. These concepts allow us to allow our code to do things only under certain conditions. Armed with this knowledge and what you've learned so far, you will be able to write code more consisely and you'll even be able to write the logic for basic games.
+Ok now things get exciting. We are going to cover optionals, loops, functions, and closures. These concepts allow us to allow our code to do things only under certain conditions. Armed with this knowledge and what you've learned so far, you will be able to write code more concisely and you'll even be able to write the logic for basic games.
 
 ### Loops and Conditionals
 Control flow constructs in Swift allow us to iterate over collections, loop through a chunk of code multiple times, and execute code based on conditional statements. The MadApper series does a good job of covering these concepts
@@ -187,7 +187,7 @@ Optional are a concept that is introduced in Swift and has no parallel in C or O
 
 ### Functions and Closures
 
-Functions and Closures are self-contained blocks of code functionality. That is a vague explanation becuase functions and closures have very broad uses and can take many forms. For this section, jump in with two long (and excellent) video tutorials from Skip Wilson to get a practical crash course.
+Functions and Closures are self-contained blocks of code functionality. That is a vague explanation because functions and closures have very broad uses and can take many forms. For this section, jump in with two long (and excellent) video tutorials from Skip Wilson to get a practical crash course.
 
 * [x]: [Functions][functions]
 * [x]: [Closures][closures]
