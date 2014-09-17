@@ -1,3 +1,7 @@
+[github link]: https://github.com/GoThinkster/swift
+
+[swiftcast tweet link]: https://twitter.com/intent/tweet?text=@SwiftCastTV%20@GoThinkster%20
+
 [apple_dev]: https://developer.apple.com/register/index.action
 [playgrounds]: https://developer.apple.com/library/prerelease/ios/recipes/xcode_help-source_editor/chapters/ExploringandEvaluatingSwiftCodeinaPlayground.html
 
@@ -95,8 +99,15 @@ never been a better time to dive into Swift.
 Swift is in its infancy. This tutorial is going to evolve and change as we
 learn more about the language and the applications of the concepts we cover. We
 are also constantly looking for more and better resources for each topic. With
-that in mind, this post is available on Github for you to track and submit
-changes to this tutorial.
+that in mind, you can find the [raw markdown for this tutorial][github link]
+over at Github. If you find good Swift resources that aren't mentioned here,
+feel free to submit a pull request!
+
+We'd like to give a special thanks to the great folks over at
+[Swiftcast](http://www.swiftcast.tv/) for kick-starting this tutorial.  If you
+have any questions or comments tweet them at
+[@SwiftCastTV][swiftcast tweet link]!
+
 
 ### Prerequisites
 
