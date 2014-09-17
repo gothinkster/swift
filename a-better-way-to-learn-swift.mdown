@@ -1,3 +1,5 @@
+[apple_dev]:https://developer.apple.com/register/index.action
+[playgrounds]:https://developer.apple.com/library/prerelease/ios/recipes/xcode_help-source_editor/chapters/ExploringandEvaluatingSwiftCodeinaPlayground.html
 
 [chapter_tour]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-XID_1
 [chapter_basics]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html
@@ -37,6 +39,75 @@
 [optionals]:http://www.youtube.com/watch?v=6yJwBU1TYoQ
 [closures]:http://www.youtube.com/watch?v=3Ob6YG5FRHE
 [functions]:http://www.youtube.com/watch?v=ioR12RPBY0k
+
+[structs]:https://www.youtube.com/watch?v=8NSXdqwxRbE&index=3&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[enums]:https://www.youtube.com/watch?v=5nwgfpNkMJw&index=7&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[classes]:https://www.youtube.com/watch?v=2HwnLD0Xxro&index=4&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[protocols]:https://www.youtube.com/watch?v=KzypIO_QoMw&index=9&list=PLfOZCUzRoPfKeOS_pwpiqbdviGcCOcTYb
+[chapter_properties]:https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Properties.html
+[chapter_methods]:https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Methods.html
+[chapter_inheritance]:https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Inheritance.html#//apple_ref/doc/uid/TP40014097
+[chapter_initializers]:https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Initialization.html#//apple_ref/doc/uid/TP40014097-CH18-XID_306
+[when_to_use_enums]:http://www.swift-studies.com/blog/2014/7/1/struct-enum-or-class
+[oop_functional]:http://www.swiftcast.tv/articles/5412074d3833320002000000
+
+[adam_quick]:http://vimeo.com/102163542
+[WWDC_testing]:https://developer.apple.com/videos/wwdc/2014/
+
+[unit_testing_reading]:https://bendyworks.com/unit-testing-in-swift/
+[tips_tricks]:http://natashatherobot.com/swift-unit-testing-tips-and-tricks/
+[nshipster_xctest]:http://nshipster.com/xctestcase/
+[async_unit_testing]:http://www.subfurther.com/blog/2014/07/16/asynchronous-unit-testing-in-swift-the-good-ugly-the-bad-and-the/
+[bad_testing]:http://www.objc.io/issue-15/bad-testing-practices.html
+[bdd_testing]:http://railsware.com/blog/2014/07/04/bdd-style-testing-in-swift-with-sleipnir/
+
+[sleiphinr_repo]:https://github.com/railsware/Sleipnir
+[quick_repo]:https://github.com/Quick/Quick
+[nilble_repo]:https://github.com/Quick/Nimble
+
+[sprite_intro]:http://www.swiftcast.tv/articles/introduction-to-sprite-kit
+[sprite_animation]:http://www.swiftcast.tv/articles/using-sprite-kit-to-animate-a-scene
+[sprite_physics]:http://www.swiftcast.tv/articles/getting-started-with-sprite-kit-physics
+[sprite_particles]:http://flexmonkey.blogspot.com/2014/07/using-swift-and-sprite-kit-for-physics.html
+
+[cheat_sheet]:http://www.swiftcast.tv/articles/cheat-sheets-for-swift
+[syntax_guide]:http://www.swiftcast.tv/articles/pro-tips-for-swift-syntax
+
+
+## Introduction
+
+No looking back now. 
+
+You've come to this tutorial because you want to learn Swift, Apple's new programming language for making iOS and MacOS apps. This tutorial is bringing together various resources to swiftly (ha!) and thoroughly introduce each component of the Swift Programming Language.
+
+There was an initial frenzy of excitement around the new language in June when Apple introduced Swift at WWDC 2014. Since then, the various beta bugs and the fact that no devices supported apps built in Swift has led to a bit of a decline in Swift’s popularity. Well Swift is now in release 1.0 and iOS8 will soon be in the hands of millions of developers and consumers alike. There has never been a better time to dive into Swift. 
+
+## A note on this tutorial 
+
+Swift is in its infancy. This tutorial is going to evolve and change as we learn more about the language and the applications of the concepts we cover. We are also constantly looking for more and better resources for each topic. With that in mind, this post is available on Github for you to track and submit changes to this tutorial. 
+
+### Prerequisites
+
+To work through this tutorial you’ll need a fully functioning Apple developer setup. This includes 
+* [x]: A mac running OSX Mavericks or Yosemite 
+* [x]: An [Apple developer account][apple_dev]
+* [x]: A copy of Xcode 6 
+
+### Resources
+We expect a plethora of learning resources to come out for Swift now that the language is out of beta. Luckily, many resources are already available and this heavily leverages the following (and they are all free!):
+
+* The Swift Programming Language Ebook from Apple (also available on iBooks)
+* The MadApper Swift Video Series 
+* The Skip Wilson Swift Video Series 
+
+### One Last Thing
+This entire tutorial can be done in a playground: an interactive environment that exists in xcode that allows you to code and receive immediate results from your code without having to compile an app. Before actually learning about Swift, learn how to create and navigate around playgrounds.
+
+* [x]: Read [Exploring and Evaluating Swift Code in a Playground][playgrounds]
+
+
+
+
 
 
 ## Swift Basics
@@ -132,6 +203,90 @@ Functions and closures can take many forms in Swift. The difference between the 
 * [x]: Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions.
 * [x]: For reference, read [The Many Forms of Swift Functions][function_cheatsheet] to see all of the various form functions can take in Swift.
 * [x]: Finally [Enough About Swift Closures to Choke a Horse][closure_choke] shows the flexibility of Swift in writing closures. 
+
+
+## Object Oriented Programming
+Objective-C is an object-oriented programming language. Swift preserves many of the object-oriented ideas and constructs from Objective-C and you’ll need to be comfortable with these concepts to write apps in Swift. 
+
+* [x]:[Structs][structs]
+* [x]:[Enums][enums]
+* [x]:[Classes][classes]
+* [x]:[Protocols][protocols]
+
+### Readings 
+Methods, Properties, and Initializers were covered in the videos, but the Swift ebook is a good place to get a detailed explanation of each of those ideas. 
+
+* [x]: [Properties][chapter_properties]
+* [x]: [Methods][chapter_methods]
+* [x]: [Inheritance][chapter_inheritience]
+* [x]: [Initializers][chapter_initializers]
+
+Now for a few practical readings on Swift objects
+
+* [x]: [When to use Enums, Structs, and Classes][when_to_use_enums]
+* [x]: [OOP and Functional][oop_functional]
+
+
+## Testing
+
+Testing is important to driving the design of our applications, ensuring they behave as we expect, and documenting our code. 
+
+* [x]: Watch [Adam Leonard’s Swiftly Testing with Quick][adam_quick]
+* [x]: Watch [WWDC Testing in XCode 6][WWDC_testing]
+
+### Readings
+
+* [x]: [Unit Testing in Swift][unit_testing_reading]
+* [x]: [Swift Unit Testing Tips and Tricks][tips_tricks]
+* [x]: [XCTest][async_unit_testing]
+* [x]: [Asynchronous Unit Testing][async_unit_testing]
+* [x]: [Bad testing Practices][bad_testing]
+* [x]: [BDD Style Testing with Slepnir][bdd_testing]
+
+### Meet the Gang
+
+There is an array of libraries to use for testing. Whether your flavor is BDD or just plain old TDD there is something for everyone!
+
+* [Sleipinr][sleiphinr_repo] is a BDD style testing framework for Swift.
+* [Quick][quick_repo] is another BDD style testing framework for Swift.
+* [Nimble][nilble_repo] is a compliment to Quick. It’s a Matchers framework.
+
+
+## SDK's
+
+When it comes to actually building apps in Swift, it is paramount to get an understanding of the various SDKs provided by Apple to get a sense for all of deep functionality that Apple provides for developers and to prevent yourself from trying to write code for functionality that already exists in an SDK or library. In fact, we recommend always looking for a trusted library before embarking on writing your own functionality (except, of course, if you're writing it yourself to better learn Swift).
+
+### Sprite Kit
+
+Sprite Kit gives developers the ability to create simple or advanced 2D games by providing animation and physics functionality.
+
+#### Readings
+* [x]: [Introduction to Sprite Kit][sprite_intro]
+* [x]: [Sprite Kit Animation][sprite_animation]
+* [x]: [Sprite Kit Physics][sprite_physics]
+* [x]: [Sprite Kit Particles][sprite_particles]
+
+
+## Cheat Sheets
+
+Tools, tricks, and tips for both novice and senior Swift developers.
+
+#### Readings
+* [x]: [Master List of Swift Cheat Sheets][cheat_sheet] showcases a few cheat sheets for Swift.
+* [x]: [Swift Syntax Guidelines][syntax_guide] is a best practices post in that is periodically updated as the language matures and best practices emerge.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
