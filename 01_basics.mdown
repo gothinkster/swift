@@ -39,7 +39,7 @@
 [functions]:http://www.youtube.com/watch?v=ioR12RPBY0k
 
 
-##Swift Basics
+## Swift Basics
 
 Now you are going to dive into the language itself. The goal of this section is to get a handle on the syntax, operators, and data types in Swift. 
 
@@ -57,7 +57,7 @@ Along with the experiments in the Swift ebook, we are including two blog posts a
 * [x]: [Check your solutions to experiments][solutions] and make any corrections. 
 * [x]: Read [about Swift operators][operators]
 * [x]: Read [about Swift Reserved Words][reserved_words]. Don't worry about memorizing these, just be aware.  
-* [x]: Optional: [Swift for Javscript Developers][swift_js] - We know many of you are coming from Javascript. Once you look a the Swift syntax you’re going to see some similarities, so it is worth it to view the video and blog post by JP Simard on Swift for Javascript developers. JP goes over the key differences between the two languages as well as some similarities.  
+* [x]: Optional: [Swift for Javscript Developers][swift_js] - We know many of you are coming from Javascript. Once you look a the Swift syntax you’re going to see some similarities, so it is worth it to view the video and blog post by JP Simard on Swift for Javascript developers. JP goes over the key differences between the two languages as well as some similarities.
 
 ### Swift Types
 
@@ -65,7 +65,7 @@ If you’ve made it this far you’ve read that one of the good parts about Swif
 
 #### Pre-Readings
 
-For Types, do the readings first before watching the videos on the specific types.   
+For Types, do the readings first before watching the videos on the specific types.
 
 * [x]: [Value Types vs. Reference Types][values_vs_reference]
 * [x]: [Compound Types vs. Named Types][compound_vs_named]
@@ -90,7 +90,7 @@ We can take all of our knowledge of the various data types in Swift and give the
 
 ### Readings
 
-* [x]: Read the [Extensions][chapter_extensions] chapter in the Swift book. 
+* [x]: Read the [Extensions][chapter_extensions] chapter in the Swift book.
 
 
 ## Control Flow 
@@ -129,8 +129,8 @@ Functions and closures can take many forms in Swift. The difference between the 
 
 * [x]: Read [the Functions chapter][chapter_functions] in the Swift ebook.
 * [x]: Read [the Optionals chapter][chapter_closures] in the Swift ebook.
-* [x]: Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions. 
-* [x]: For reference, read [The Many Forms of Swift Functions][function_cheatsheet] to see all of the various form functions can take in Swift.  
+* [x]: Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions.
+* [x]: For reference, read [The Many Forms of Swift Functions][function_cheatsheet] to see all of the various form functions can take in Swift.
 * [x]: Finally [Enough About Swift Closures to Choke a Horse][closure_choke] shows the flexibility of Swift in writing closures. 
 
 
