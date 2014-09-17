@@ -14,7 +14,7 @@
 [optionals_case]: https://developer.apple.com/swift/blog/?id=12
 [swift_defines_away]: https://medium.com/@rrridges/swift-optionals-a10dcfd8aab5
 [chapter_functions]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Functions.html
-[chapter_closures]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html 
+[chapter_closures]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html
 [basic_functions_closures]: http://airspeedvelocity.net/2014/06/11/a-basic-tutorial-on-functions-and-closures-in-swift/
 [function_cheatsheet]: http://adoptioncurve.net/archives/2014/08/the-many-forms-of-swift-functions-a-cheatsheet/
 [closure_choke]: http://www.informit.com/articles/article.aspx?p=2234250
@@ -34,7 +34,7 @@
 [for_in]: http://www.youtube.com/watch?v=nPvNJANVM7o
 [while]: http://www.youtube.com/watch?v=Pc-SO4F2tjY
 [do_while]: http://www.youtube.com/watch?v=eDNB0AoLaMo
-[if]: http://www.youtube.com/watch?v=ZeksjlD-eCo 
+[if]: http://www.youtube.com/watch?v=ZeksjlD-eCo
 [switch]: http://www.youtube.com/watch?v=R1sn8nhUNFc
 [optionals]: http://www.youtube.com/watch?v=6yJwBU1TYoQ
 [closures]: http://www.youtube.com/watch?v=3Ob6YG5FRHE
@@ -80,25 +80,25 @@ No looking back now.
 
 You've come to this tutorial because you want to learn Swift, Apple's new programming language for making iOS and MacOS apps. This tutorial is bringing together various resources to swiftly (ha!) and thoroughly introduce each component of the Swift Programming Language.
 
-There was an initial frenzy of excitement around the new language in June when Apple introduced Swift at WWDC 2014. Since then, the various beta bugs and the fact that no devices supported apps built in Swift has led to a bit of a decline in Swift’s popularity. Well Swift is now in release 1.0 and iOS8 will soon be in the hands of millions of developers and consumers alike. There has never been a better time to dive into Swift. 
+There was an initial frenzy of excitement around the new language in June when Apple introduced Swift at WWDC 2014. Since then, the various beta bugs and the fact that no devices supported apps built in Swift has led to a bit of a decline in Swift's popularity. Well Swift is now in release 1.0 and iOS8 will soon be in the hands of millions of developers and consumers alike. There has never been a better time to dive into Swift.
 
-## A note on this tutorial 
+## A note on this tutorial
 
-Swift is in its infancy. This tutorial is going to evolve and change as we learn more about the language and the applications of the concepts we cover. We are also constantly looking for more and better resources for each topic. With that in mind, this post is available on Github for you to track and submit changes to this tutorial. 
+Swift is in its infancy. This tutorial is going to evolve and change as we learn more about the language and the applications of the concepts we cover. We are also constantly looking for more and better resources for each topic. With that in mind, this post is available on Github for you to track and submit changes to this tutorial.
 
 ### Prerequisites
 
-To work through this tutorial you’ll need a fully functioning Apple developer setup. This includes 
-* [x]: A mac running OSX Mavericks or Yosemite 
+To work through this tutorial you'll need a fully functioning Apple developer setup. This includes
+* [x]: A mac running OSX Mavericks or Yosemite
 * [x]: An [Apple developer account][apple_dev]
-* [x]: A copy of Xcode 6 
+* [x]: A copy of Xcode 6
 
 ### Resources
 We expect a plethora of learning resources to come out for Swift now that the language is out of beta. Luckily, many resources are already available and this heavily leverages the following (and they are all free!):
 
 * The Swift Programming Language Ebook from Apple (also available on iBooks)
-* The MadApper Swift Video Series 
-* The Skip Wilson Swift Video Series 
+* The MadApper Swift Video Series
+* The Skip Wilson Swift Video Series
 
 ### One Last Thing
 This entire tutorial can be done in a playground: an interactive environment that exists in xcode that allows you to code and receive immediate results from your code without having to compile an app. Before actually learning about Swift, learn how to create and navigate around playgrounds.
@@ -108,27 +108,27 @@ This entire tutorial can be done in a playground: an interactive environment tha
 
 ## Swift Basics
 
-Now you are going to dive into the language itself. The goal of this section is to get a handle on the syntax, operators, and data types in Swift. 
+Now you are going to dive into the language itself. The goal of this section is to get a handle on the syntax, operators, and data types in Swift.
 
 ### Swift Syntax
 
-When learning a new language syntax, it is recommended that you immediately start writing in the language as much as possible. Apple’s “A Swift Tour” chapter of The Swift Programming Guide provides a an overview of Swift Syntax as well as a set of “experiments”, short exercises that let you write some Swift code focusing on a different aspect of the Swift Syntax. 
+When learning a new language syntax, it is recommended that you immediately start writing in the language as much as possible. Apple's "A Swift Tour" chapter of The Swift Programming Guide provides a an overview of Swift Syntax as well as a set of "experiments", short exercises that let you write some Swift code focusing on a different aspect of the Swift Syntax.
 
 * [x]: [Variables and Contants][variables_constants]
 
 #### Readings
 
-Along with the experiments in the Swift ebook, we are including two blog posts about reserved words and operators that can serve as reference materials. 
+Along with the experiments in the Swift ebook, we are including two blog posts about reserved words and operators that can serve as reference materials.
 
-* [x]: Read the [A Swift Tour][chapter_tour] chapter in the Swift ebook and work through the experiments. 
-* [x]: [Check your solutions to experiments][solutions] and make any corrections. 
+* [x]: Read the [A Swift Tour][chapter_tour] chapter in the Swift ebook and work through the experiments.
+* [x]: [Check your solutions to experiments][solutions] and make any corrections.
 * [x]: Read [about Swift operators][operators]
-* [x]: Read [about Swift Reserved Words][reserved_words]. Don't worry about memorizing these, just be aware.  
-* [x]: Optional: [Swift for Javscript Developers][swift_js] - We know many of you are coming from Javascript. Once you look a the Swift syntax you’re going to see some similarities, so it is worth it to view the video and blog post by JP Simard on Swift for Javascript developers. JP goes over the key differences between the two languages as well as some similarities.
+* [x]: Read [about Swift Reserved Words][reserved_words]. Don't worry about memorizing these, just be aware.
+* [x]: Optional: [Swift for Javscript Developers][swift_js] - We know many of you are coming from Javascript. Once you look a the Swift syntax you're going to see some similarities, so it is worth it to view the video and blog post by JP Simard on Swift for Javascript developers. JP goes over the key differences between the two languages as well as some similarities.
 
 ### Swift Types
 
-If you’ve made it this far you’ve read that one of the good parts about Swift is that it is a type-safe language. Even without having any idea what that means, you can probably assume the section in this tutorial about types is important. For learning about types, the MadApper video series and Apple’s documentation pair nicely. Types in Swift can be confusing because there are four categories of types: named types, compound types, value types, and reference types.  Each type in Swift is a compound type or a named type as well as either a reference type or a value type.  Confused yet? No worries, we’ll sort all of this out. 
+If you've made it this far you've read that one of the good parts about Swift is that it is a type-safe language. Even without having any idea what that means, you can probably assume the section in this tutorial about types is important. For learning about types, the MadApper video series and Apple's documentation pair nicely. Types in Swift can be confusing because there are four categories of types: named types, compound types, value types, and reference types.  Each type in Swift is a compound type or a named type as well as either a reference type or a value type.  Confused yet? No worries, we'll sort all of this out.
 
 #### Pre-Readings
 
@@ -151,7 +151,7 @@ For Types, do the readings first before watching the videos on the specific type
 
 
 ### Extensions
-We can take all of our knowledge of the various data types in Swift and give them new functionality. Extensions allow us to give types new methods to suit the needs of our applications. For this, watch a long and awesome video on creating an extension and don’t forget only named types can be extended.
+We can take all of our knowledge of the various data types in Swift and give them new functionality. Extensions allow us to give types new methods to suit the needs of our applications. For this, watch a long and awesome video on creating an extension and don't forget only named types can be extended.
 
 * [x]: [Extensions][extensions]
 
@@ -160,9 +160,9 @@ We can take all of our knowledge of the various data types in Swift and give the
 * [x]: Read the [Extensions][chapter_extensions] chapter in the Swift book.
 
 
-## Control Flow 
+## Control Flow
 
-Ok now things get exciting. We are going to cover optionals, loops, functions, and closures. These concepts allow us to allow our code to do things only under certain conditions. Armed with this knowledge and what you’ve learned so far, you will be able to write code more consisely and you'll even be able to write the logic for basic games.
+Ok now things get exciting. We are going to cover optionals, loops, functions, and closures. These concepts allow us to allow our code to do things only under certain conditions. Armed with this knowledge and what you've learned so far, you will be able to write code more consisely and you'll even be able to write the logic for basic games.
 
 ### Loops and Conditionals
 Control flow constructs in Swift allow us to iterate over collections, loop through a chunk of code multiple times, and execute code based on conditional statements. The MadApper series does a good job of covering these concepts
@@ -176,41 +176,41 @@ Control flow constructs in Swift allow us to iterate over collections, loop thro
 
 ### Optionals
 
-Optional are a concept that is introduced in Swift and has no parallel in C or Objective-C. Using them effectively can prevent some common programming errors and increase the type safety of your code. 
+Optional are a concept that is introduced in Swift and has no parallel in C or Objective-C. Using them effectively can prevent some common programming errors and increase the type safety of your code.
 
 * [x]: [Optionals][chapter_basics]
 
 #### Readings
-* [x]: Read [the section called “Optionals”] in “The Basics Chapter” of the Swift ebook.
-* [x]: Read ["How Swift “Defines Away” Common Programming Errors…sort of"][swift_defines_away] by Matt Bridges
+* [x]: Read the section called "Optionals" in "The Basics Chapter" of the Swift ebook.
+* [x]: Read ["How Swift "Defines Away" Common Programming Errors…sort of"][swift_defines_away] by Matt Bridges
 * [x]: Read ["Optional Case Study: Value for Keys"][optionals_case] from the Swift Blog
 
 ### Functions and Closures
 
-Functions and Closures are self-contained blocks of code functionality. That is a vague explanation becuase functions and closures have very broad uses and can take many forms. For this section, jump in with two long (and excellent) video tutorials from Skip Wilson to get a practical crash course. 
+Functions and Closures are self-contained blocks of code functionality. That is a vague explanation becuase functions and closures have very broad uses and can take many forms. For this section, jump in with two long (and excellent) video tutorials from Skip Wilson to get a practical crash course.
 
 * [x]: [Functions][functions]
 * [x]: [Closures][closures]
 
-Functions and closures can take many forms in Swift. The difference between the a function and a closure can also be hard to grasp.  The videos cover the basics, but these readings will give you a more complete understanding. 
+Functions and closures can take many forms in Swift. The difference between the a function and a closure can also be hard to grasp.  The videos cover the basics, but these readings will give you a more complete understanding.
 
 * [x]: Read [the Functions chapter][chapter_functions] in the Swift ebook.
 * [x]: Read [the Optionals chapter][chapter_closures] in the Swift ebook.
 * [x]: Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions.
 * [x]: For reference, read [The Many Forms of Swift Functions][function_cheatsheet] to see all of the various form functions can take in Swift.
-* [x]: Finally [Enough About Swift Closures to Choke a Horse][closure_choke] shows the flexibility of Swift in writing closures. 
+* [x]: Finally [Enough About Swift Closures to Choke a Horse][closure_choke] shows the flexibility of Swift in writing closures.
 
 
 ## Object Oriented Programming
-Objective-C is an object-oriented programming language. Swift preserves many of the object-oriented ideas and constructs from Objective-C and you’ll need to be comfortable with these concepts to write apps in Swift. 
+Objective-C is an object-oriented programming language. Swift preserves many of the object-oriented ideas and constructs from Objective-C and you'll need to be comfortable with these concepts to write apps in Swift.
 
 * [x]: [Structs][structs]
 * [x]: [Enums][enums]
 * [x]: [Classes][classes]
 * [x]: [Protocols][protocols]
 
-### Readings 
-Methods, Properties, and Initializers were covered in the videos, but the Swift ebook is a good place to get a detailed explanation of each of those ideas. 
+### Readings
+Methods, Properties, and Initializers were covered in the videos, but the Swift ebook is a good place to get a detailed explanation of each of those ideas.
 
 * [x]: [Properties][chapter_properties]
 * [x]: [Methods][chapter_methods]
@@ -225,9 +225,9 @@ Now for a few practical readings on Swift objects
 
 ## Testing
 
-Testing is important to driving the design of our applications, ensuring they behave as we expect, and documenting our code. 
+Testing is important to driving the design of our applications, ensuring they behave as we expect, and documenting our code.
 
-* [x]: Watch [Adam Leonard’s Swiftly Testing with Quick][adam_quick]
+* [x]: Watch [Adam Leonard's Swiftly Testing with Quick][adam_quick]
 * [x]: Watch [WWDC Testing in XCode 6][WWDC_testing]
 
 ### Readings
@@ -245,7 +245,7 @@ There is an array of libraries to use for testing. Whether your flavor is BDD or
 
 * [Sleipinr][sleiphinr_repo] is a BDD style testing framework for Swift.
 * [Quick][quick_repo] is another BDD style testing framework for Swift.
-* [Nimble][nilble_repo] is a compliment to Quick. It’s a Matchers framework.
+* [Nimble][nilble_repo] is a compliment to Quick. It's a Matchers framework.
 
 
 ## SDK's
