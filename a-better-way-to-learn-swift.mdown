@@ -151,7 +151,7 @@ chapter of The Swift Programming Guide provides an overview of Swift Syntax
 as well as a set of "experiments", short exercises that let you write some
 Swift code focusing on a different aspect of the Swift Syntax.
 
-* [x] variables_constants: [Variables and Contants][variables_constants]
+* [x] variables_constants: [Variables and Constants][variables_constants]
 
 #### Readings
 
