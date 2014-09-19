@@ -58,6 +58,7 @@
 [adam_quick]: http://vimeo.com/102163542
 [WWDC_testing]: https://developer.apple.com/videos/wwdc/2014/
 
+[xctest_reading]: http://www.swiftcast.tv/articles/introduction-to-xctest
 [unit_testing_reading]: https://bendyworks.com/unit-testing-in-swift/
 [tips_tricks]: http://natashatherobot.com/swift-unit-testing-tips-and-tricks/
 [nshipster_xctest]: http://nshipster.com/xctestcase/
@@ -304,6 +305,7 @@ behave as we expect, and documenting our code.
 
 ### Readings
 
+* [x] xctest: [Introduction to XCTest][xctest_reading]
 * [x] unit_testing_reading: [Unit Testing in Swift][unit_testing_reading]
 * [x] tips_tricks: [Swift Unit Testing Tips and Tricks][tips_tricks]
 * [x] async_unit_testing: [XCTest][async_unit_testing]
