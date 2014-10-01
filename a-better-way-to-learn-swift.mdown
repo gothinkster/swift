@@ -23,15 +23,15 @@
 [function_cheatsheet]: http://adoptioncurve.net/archives/2014/08/the-many-forms-of-swift-functions-a-cheatsheet/
 [closure_choke]: http://www.informit.com/articles/article.aspx?p=2234250
 
-[booleans]: http://www.youtube.com/watch?v=yulIqkOjGUA
-[numbers]: http://www.youtube.com/watch?v=lZRbX7cgyk4
-[variables_constants]: http://www.youtube.com/watch?v=2lJmNaVcRVk
-[strings]: http://www.youtube.com/watch?v=6X34DbfT_fY
-[strings_man]: http://www.youtube.com/watch?v=9JiYwlYqT48
+[booleans]: http://www.swiftcast.tv/articles/54274a673033340002010000
+[numbers]: http://www.swiftcast.tv/articles/542754d93033340002020000
+[variables_constants]: http://www.swiftcast.tv/articles/54276cfe3033340002030000
+[strings]: http://www.swiftcast.tv/articles/542891c63033340002070000
+[strings_man]: http://www.swiftcast.tv/articles/542b65556335660002000000
 [floats_doubles]: http://www.youtube.com/watch?v=vql7qLixME4
-[arrays]: http://www.youtube.com/watch?v=nftMzZLy_oM
-[arrays_man]: http://www.youtube.com/watch?v=ymDtPmP6Osg
-[dict]: http://www.youtube.com/watch?v=3uuZVXZ0kdM
+[arrays]: http://www.swiftcast.tv/articles/542b75436335660002010000
+[arrays_man]: http://www.swiftcast.tv/articles/542b65556335660002000000
+[dict]: http://www.swiftcast.tv/articles/542b90996335660002030000
 [dict_man]: http://www.youtube.com/watch?v=M9sbLa2AsCM
 [extensions]: http://www.youtube.com/watch?v=rvKyeOqMldA
 [for]: http://www.youtube.com/watch?v=SHtzIdnG-PY
@@ -188,10 +188,9 @@ types.
 ### Videos
 
 * [x] booleans: [Booleans][booleans]
-* [x] numbers: [Numbers][numbers]
 * [x] strings: [Strings][strings]
 * [x] strings_man: [String Manipulation][strings_man]
-* [x] floats_doubles: [Floats and Doubles][floats_doubles]
+* [x] numbers: [Numbers: Integers, Floats, Doubles][numbers]
 * [x] arrays: [Arrays][arrays]
 * [x] arrays_man: [Array Manipulation][arrays_man]
 * [x] dict: [Dictionaries][dict]
