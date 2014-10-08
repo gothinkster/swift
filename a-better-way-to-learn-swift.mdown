@@ -30,7 +30,7 @@
 [strings_man]: http://www.swiftcast.tv/articles/542b65556335660002000000
 [floats_doubles]: http://www.youtube.com/watch?v=vql7qLixME4
 [arrays]: http://www.swiftcast.tv/articles/542b75436335660002010000
-[arrays_man]: http://www.swiftcast.tv/articles/542b65556335660002000000
+[arrays_man]: http://www.swiftcast.tv/articles/542b851f6335660002020000
 [dict]: http://www.swiftcast.tv/articles/542b90996335660002030000
 [dict_man]: http://www.youtube.com/watch?v=M9sbLa2AsCM
 [extensions]: http://www.youtube.com/watch?v=rvKyeOqMldA
