@@ -115,9 +115,15 @@ have any questions or comments tweet them at
 To work through this tutorial you'll need a fully functioning Apple developer
 setup. This includes
 
-* [x] running_osx: A mac running OSX Mavericks or Yosemite
-* [x] apple_dev: An [Apple developer account][apple_dev]
-* [x] copy_of_xcode: A copy of Xcode 6
+
+{x: running_osx}
+A mac running OSX Mavericks or Yosemite
+
+{x: apple_dev}
+An [Apple developer account][apple_dev]
+
+{x: copy_of_xcode}
+A copy of Xcode 6
 
 ## Resources
 
@@ -136,7 +142,9 @@ that exists in xcode that allows you to code and receive immediate results from
 your code without having to compile an app. Before actually learning about
 Swift, learn how to create and navigate around playgrounds.
 
-* [x] playgrounds: Read [Exploring and Evaluating Swift Code in a Playground][playgrounds]
+
+{x: playgrounds}
+Read [Exploring and Evaluating Swift Code in a Playground][playgrounds]
 
 
 # Swift Basics
@@ -152,18 +160,30 @@ chapter of The Swift Programming Guide provides an overview of Swift Syntax
 as well as a set of "experiments", short exercises that let you write some
 Swift code focusing on a different aspect of the Swift Syntax.
 
-* [x] variables_constants: [Variables and Constants][variables_constants]
+
+{x: variables_constants}
+[Variables and Constants][variables_constants]
 
 ### Readings
 
 Along with the experiments in the Swift ebook, we are including two blog posts
 about reserved words and operators that can serve as reference materials.
 
-* [x] chapter_tour: Read the [A Swift Tour][chapter_tour] chapter in the Swift ebook and work through the experiments.
-* [x] solutions: [Check your solutions to experiments][solutions] and make any corrections.
-* [x] operators: Read [about Swift operators][operators]
-* [x] reserved_words: Read [about Swift Reserved Words][reserved_words]. Don't worry about memorizing these, just be aware.
-* [x] swift_js: Optional: [Swift for Javscript Developers][swift_js] - We know many of you are coming from Javascript. Once you look a the Swift syntax you're going to see some similarities, so it is worth it to view the video and blog post by JP Simard on Swift for Javascript developers. JP goes over the key differences between the two languages as well as some similarities.
+
+{x: chapter_tour}
+Read the [A Swift Tour][chapter_tour] chapter in the Swift ebook and work through the experiments.
+
+{x: solutions}
+[Check your solutions to experiments][solutions] and make any corrections.
+
+{x: operators}
+Read [about Swift operators][operators]
+
+{x: reserved_words}
+Read [about Swift Reserved Words][reserved_words]. Don't worry about memorizing these, just be aware.
+
+{x: swift_js}
+Optional: [Swift for Javscript Developers][swift_js] - We know many of you are coming from Javascript. Once you look a the Swift syntax you're going to see some similarities, so it is worth it to view the video and blog post by JP Simard on Swift for Javascript developers. JP goes over the key differences between the two languages as well as some similarities.
 
 ## Swift Types
 
@@ -182,19 +202,39 @@ sort all of this out.
 For Types, do the readings first before watching the videos on the specific
 types.
 
-* [x] values_vs_reference: [Value Types vs. Reference Types][values_vs_reference]
-* [x] compound_vs_named: [Compound Types vs. Named Types][compound_vs_named]
+
+{x: values_vs_reference}
+[Value Types vs. Reference Types][values_vs_reference]
+
+{x: compound_vs_named}
+[Compound Types vs. Named Types][compound_vs_named]
 
 ### Videos
 
-* [x] booleans: [Booleans][booleans]
-* [x] strings: [Strings][strings]
-* [x] strings_man: [String Manipulation][strings_man]
-* [x] numbers: [Numbers: Integers, Floats, Doubles][numbers]
-* [x] arrays: [Arrays][arrays]
-* [x] arrays_man: [Array Manipulation][arrays_man]
-* [x] dict: [Dictionaries][dict]
-* [x] dict_man: [Dictionary Manipulation][dict_man]
+
+{x: booleans}
+[Booleans][booleans]
+
+{x: strings}
+[Strings][strings]
+
+{x: strings_man}
+[String Manipulation][strings_man]
+
+{x: numbers}
+[Numbers: Integers, Floats, Doubles][numbers]
+
+{x: arrays}
+[Arrays][arrays]
+
+{x: arrays_man}
+[Array Manipulation][arrays_man]
+
+{x: dict}
+[Dictionaries][dict]
+
+{x: dict_man}
+[Dictionary Manipulation][dict_man]
 
 
 ## Extensions
@@ -204,11 +244,15 @@ them new functionality. Extensions allow us to give types new methods to suit
 the needs of our applications. For this, watch a long and awesome video on
 creating an extension and don't forget only named types can be extended.
 
-* [x] extensions: [Extensions][extensions]
+
+{x: extensions}
+[Extensions][extensions]
 
 ## Readings
 
-* [x] chapter_extensions: Read the [Extensions][chapter_extensions] chapter in the Swift book.
+
+{x: chapter_extensions}
+Read the [Extensions][chapter_extensions] chapter in the Swift book.
 
 
 # Control Flow
@@ -225,12 +269,24 @@ Control flow constructs in Swift allow us to iterate over collections, loop
 through a chunk of code multiple times, and execute code based on conditional
 statements. The MadApper series does a good job of covering these concepts
 
-* [x] for: [For (condition, increment) Loops][for]
-* [x] for_in: [For In Loops][for_in]
-* [x] while: [While Loops][while]
-* [x] do_while: [Do While Loops][do_while]
-* [x] if: [If][if]
-* [x] switch: [Switch][switch]
+
+{x: for}
+[For (condition, increment) Loops][for]
+
+{x: for_in}
+[For In Loops][for_in]
+
+{x: while}
+[While Loops][while]
+
+{x: do_while}
+[Do While Loops][do_while]
+
+{x: if}
+[If][if]
+
+{x: switch}
+[Switch][switch]
 
 ## Optionals
 
@@ -238,13 +294,21 @@ Optional are a concept that is introduced in Swift and has no parallel in C or
 Objective-C. Using them effectively can prevent some common programming errors
 and increase the type safety of your code.
 
-* [x] chapter_basics: [Optionals][chapter_basics]
+
+{x: chapter_basics}
+[Optionals][chapter_basics]
 
 ### Readings
 
-* [x] optionals_basics: Read the [section called "Optionals"][optionals_basics] in "The Basics Chapter" of the Swift ebook.
-* [x] swift_defines_away: Read ["How Swift "Defines Away" Common Programming Errors…sort of"][swift_defines_away] by Matt Bridges
-* [x] optionals_case: Read ["Optional Case Study: Value for Keys"][optionals_case] from the Swift Blog
+
+{x: optionals_basics}
+Read the [section called "Optionals"][optionals_basics] in "The Basics Chapter" of the Swift ebook.
+
+{x: swift_defines_away}
+Read ["How Swift "Defines Away" Common Programming Errors…sort of"][swift_defines_away] by Matt Bridges
+
+{x: optionals_case}
+Read ["Optional Case Study: Value for Keys"][optionals_case] from the Swift Blog
 
 ## Functions and Closures
 
@@ -253,18 +317,32 @@ a vague explanation because functions and closures have very broad uses and can
 take many forms. For this section, jump in with two long (and excellent) video
 tutorials from Skip Wilson to get a practical crash course.
 
-* [x] functions: [Functions][functions]
-* [x] closures: [Closures][closures]
+
+{x: functions}
+[Functions][functions]
+
+{x: closures}
+[Closures][closures]
 
 Functions and closures can take many forms in Swift. The difference between a
 function and a closure can also be hard to grasp. The videos cover the
 basics, but these readings will give you a more complete understanding.
 
-* [x] chapter_functions: Read [the Functions chapter][chapter_functions] in the Swift ebook.
-* [x] chapter_closures: Read [the Optionals chapter][chapter_closures] in the Swift ebook.
-* [x] basic_functions_closures: Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions.
-* [x] function_cheatsheet: For reference, read [The Many Forms of Swift Functions][function_cheatsheet] to see all of the various form functions can take in Swift.
-* [x] closure_choke: Finally [Enough About Swift Closures to Choke a Horse][closure_choke] shows the flexibility of Swift in writing closures.
+
+{x: chapter_functions}
+Read [the Functions chapter][chapter_functions] in the Swift ebook.
+
+{x: chapter_closures}
+Read [the Optionals chapter][chapter_closures] in the Swift ebook.
+
+{x: basic_functions_closures}
+Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions.
+
+{x: function_cheatsheet}
+For reference, read [The Many Forms of Swift Functions][function_cheatsheet] to see all of the various form functions can take in Swift.
+
+{x: closure_choke}
+Finally [Enough About Swift Closures to Choke a Horse][closure_choke] shows the flexibility of Swift in writing closures.
 
 
 # Object Oriented Programming
@@ -273,25 +351,45 @@ Objective-C is an object-oriented programming language. Swift preserves many of
 the object-oriented ideas and constructs from Objective-C and you'll need to be
 comfortable with these concepts to write apps in Swift.
 
-* [x] structs: [Structs][structs]
-* [x] enums: [Enums][enums]
-* [x] classes: [Classes][classes]
-* [x] protocols: [Protocols][protocols]
+
+{x: structs}
+[Structs][structs]
+
+{x: enums}
+[Enums][enums]
+
+{x: classes}
+[Classes][classes]
+
+{x: protocols}
+[Protocols][protocols]
 
 ## Readings
 
 Methods, Properties, and Initializers were covered in the videos, but the Swift
 ebook is a good place to get a detailed explanation of each of those ideas.
 
-* [x] chapter_properties: [Properties][chapter_properties]
-* [x] chapter_methods: [Methods][chapter_methods]
-* [x] chapter_inheritance: [Inheritance][chapter_inheritance]
-* [x] chapter_initializers: [Initializers][chapter_initializers]
+
+{x: chapter_properties}
+[Properties][chapter_properties]
+
+{x: chapter_methods}
+[Methods][chapter_methods]
+
+{x: chapter_inheritance}
+[Inheritance][chapter_inheritance]
+
+{x: chapter_initializers}
+[Initializers][chapter_initializers]
 
 Now for a few practical readings on Swift objects
 
-* [x] when_to_use_enums: [When to use Enums, Structs, and Classes][when_to_use_enums]
-* [x] oop_functional: [OOP and Functional][oop_functional]
+
+{x: when_to_use_enums}
+[When to use Enums, Structs, and Classes][when_to_use_enums]
+
+{x: oop_functional}
+[OOP and Functional][oop_functional]
 
 
 # Testing
@@ -299,18 +397,36 @@ Now for a few practical readings on Swift objects
 Testing is important to driving the design of our applications, ensuring they
 behave as we expect, and documenting our code.
 
-* [x] adam_quick: Watch [Adam Leonard's Swiftly Testing with Quick][adam_quick]
-* [x] WWDC_testing: Watch [WWDC Testing in XCode 6][WWDC_testing]
+
+{x: adam_quick}
+Watch [Adam Leonard's Swiftly Testing with Quick][adam_quick]
+
+{x: WWDC_testing}
+Watch [WWDC Testing in XCode 6][WWDC_testing]
 
 ## Readings
 
-* [x] xctest: [Introduction to XCTest][xctest_reading]
-* [x] unit_testing_reading: [Unit Testing in Swift][unit_testing_reading]
-* [x] tips_tricks: [Swift Unit Testing Tips and Tricks][tips_tricks]
-* [x] async_unit_testing: [XCTest][async_unit_testing]
-* [x] async_unit_testing: [Asynchronous Unit Testing][async_unit_testing]
-* [x] bad_testing: [Bad testing Practices][bad_testing]
-* [x] bdd_testing: [BDD Style Testing with Slepnir][bdd_testing]
+
+{x: xctest}
+[Introduction to XCTest][xctest_reading]
+
+{x: unit_testing_reading}
+[Unit Testing in Swift][unit_testing_reading]
+
+{x: tips_tricks}
+[Swift Unit Testing Tips and Tricks][tips_tricks]
+
+{x: async_unit_testing}
+[XCTest][async_unit_testing]
+
+{x: async_unit_testing}
+[Asynchronous Unit Testing][async_unit_testing]
+
+{x: bad_testing}
+[Bad testing Practices][bad_testing]
+
+{x: bdd_testing}
+[BDD Style Testing with Slepnir][bdd_testing]
 
 ## Meet the Gang
 
@@ -338,10 +454,18 @@ Sprite Kit gives developers the ability to create simple or advanced 2D games
 by providing animation and physics functionality.
 
 ### Readings
-* [x] sprite_intro: [Introduction to Sprite Kit][sprite_intro]
-* [x] sprite_animation: [Sprite Kit Animation][sprite_animation]
-* [x] sprite_physics: [Sprite Kit Physics][sprite_physics]
-* [x] sprite_particles: [Sprite Kit Particles][sprite_particles]
+
+{x: sprite_intro}
+[Introduction to Sprite Kit][sprite_intro]
+
+{x: sprite_animation}
+[Sprite Kit Animation][sprite_animation]
+
+{x: sprite_physics}
+[Sprite Kit Physics][sprite_physics]
+
+{x: sprite_particles}
+[Sprite Kit Particles][sprite_particles]
 
 
 # Cheat Sheets
@@ -349,6 +473,10 @@ by providing animation and physics functionality.
 Tools, tricks, and tips for both novice and senior Swift developers.
 
 ### Readings
-* [x] cheat_sheet: [Master List of Swift Cheat Sheets][cheat_sheet] showcases a few cheat sheets for Swift.
-* [x] syntax_guide: [Swift Syntax Guidelines][syntax_guide] is a best practices post in that is periodically updated as the language matures and best practices emerge.
+
+{x: cheat_sheet}
+[Master List of Swift Cheat Sheets][cheat_sheet] showcases a few cheat sheets for Swift.
+
+{x: syntax_guide}
+[Swift Syntax Guidelines][syntax_guide] is a best practices post in that is periodically updated as the language matures and best practices emerge.
 
