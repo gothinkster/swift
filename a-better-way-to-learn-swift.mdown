@@ -14,6 +14,7 @@
 [operators]: http://nshipster.com/swift-operators/
 [reserved_words]: http://blog.swiftcast.tv/articles/reserved-words-escaping
 [values_vs_reference]: https://developer.apple.com/swift/blog/?id=10
+[values_vs_reference_intuition]: http://www.objc.io/issue-16/swift-classes-vs-structs.html
 [compound_vs_named]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html
 [optionals_case]: https://developer.apple.com/swift/blog/?id=12
 [swift_defines_away]: https://medium.com/@rrridges/swift-optionals-a10dcfd8aab5
@@ -205,6 +206,9 @@ types.
 
 {x: values_vs_reference}
 [Value Types vs. Reference Types][values_vs_reference]
+
+{x: values_vs_reference_intuition}
+[Building Intuition for Value Types vs. Reference Types][values_vs_reference_intuition]
 
 {x: compound_vs_named}
 [Compound Types vs. Named Types][compound_vs_named]
