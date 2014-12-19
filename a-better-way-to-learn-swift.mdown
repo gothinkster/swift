@@ -337,7 +337,7 @@ basics, but these readings will give you a more complete understanding.
 Read [the Functions chapter][chapter_functions] in the Swift ebook.
 
 {x: chapter_closures}
-Read [the Optionals chapter][chapter_closures] in the Swift ebook.
+Read [the Closures chapter][chapter_closures] in the Swift ebook.
 
 {x: basic_functions_closures}
 Read [A Basic Tutorial on Functions and Closures in Swift][basic_functions_closures] for clarification on functions, closures, and closure expressions.
