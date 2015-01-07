@@ -8,6 +8,7 @@
 [chapter_tour]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-XID_1
 [chapter_basics]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html
 [optionals_basics]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-XID_485
+[optionals_complete_guide]: http://matteomanferdini.com/the-complete-guide-to-understanding-swift-optionals/
 [chapter_extensions]: https://developer.apple.com/library/prerelease/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Extensions.html#//apple_ref/doc/uid/TP40014097-CH24-XID_229
 [solutions]: http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments
 [swift_js]: http://realm.io/news/swift-for-javascript-developers/
@@ -307,6 +308,11 @@ and increase the type safety of your code.
 
 {x: optionals_basics}
 Read the [section called "Optionals"][optionals_basics] in "The Basics Chapter" of the Swift ebook.
+
+{x: optionals_complete_guide}
+Read [The Complete Guide to Understanding Swift Optionals][optionals_complete_guide] to complete 
+your understanding of optionals. Learn how they work under the hood, best pratices, and why we
+need them in the first place.  
 
 {x: swift_defines_away}
 Read ["How Swift "Defines Away" Common Programming Errors…sort of"][swift_defines_away] by Matt Bridges
