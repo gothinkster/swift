@@ -3,7 +3,7 @@
   "description": "An introduction to the Swift programming language. Nail the basics of iOS programming with this free tutorial by Swiftcast.tv",
   "url": "a-better-way-to-learn-swift",
   "git": "https://github.com/GoThinkster/swift",
-  "coverImage": "swift.jpg",
+  "coverImage": "images/swift.jpg",
   "author": {
     "github": "swiftcast"
   }
