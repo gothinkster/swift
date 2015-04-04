@@ -13,7 +13,7 @@
 [solutions]: http://www.swiftcast.tv/articles/swift-programming-language-solutions-experiments
 [swift_js]: http://realm.io/news/swift-for-javascript-developers/
 [operators]: http://nshipster.com/swift-operators/
-[reserved_words]: http://blog.swiftcast.tv/articles/reserved-words-escaping
+[reserved_words]: https://swiftcast.tv/articles/reserved-words-in-swift-and-how-to-escape-them
 [values_vs_reference]: https://developer.apple.com/swift/blog/?id=10
 [values_vs_reference_intuition]: http://www.objc.io/issue-16/swift-classes-vs-structs.html
 [compound_vs_named]: https://developer.apple.com/library/mac/documentation/Swift/Conceptual/Swift_Programming_Language/Types.html
