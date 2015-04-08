@@ -97,6 +97,12 @@ decline in Swift's popularity. Well Swift is now in release 1.0 and iOS8 will
 soon be in the hands of millions of developers and consumers alike. There has
 never been a better time to dive into Swift.
 
+{announcement}
+Looking to learn how to build a Swift app from the ground up? Check out the
+[Flourish Tutorial](https://thinkster.io/swift-ios-app/)!
+
+
+
 # A note on this tutorial
 
 Swift is in its infancy. This tutorial is going to evolve and change as we
