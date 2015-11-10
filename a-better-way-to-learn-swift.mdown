@@ -3,7 +3,7 @@
 [swiftcast tweet link]: https://twitter.com/intent/tweet?text=@SwiftCastTV%20@GoThinkster%20
 
 [apple_dev]: https://developer.apple.com/register/index.action
-[playgrounds]: https://developer.apple.com/library/ios/recipes/xcode_help-source_editor/chapters/ExploringandEvaluatingSwiftCodeinaPlayground.html
+[playgrounds]: https://developer.apple.com/library/ios/recipes/Playground_Help/Chapters/AboutPlaygrounds.html
 
 [chapter_tour]: https://developer.apple.com/library/mac/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-XID_1
 [chapter_basics]: https://developer.apple.com/library/mac/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html
